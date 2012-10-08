@@ -4,7 +4,7 @@ class CustomInkTweets < NetworkExecutive::Program
   search '@customink', count: 50
 
   def display_name
-    'Twitter Feed'
+    '@CustomInk'
   end
 
   def url
