@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  color: #fff;
+  font-family: museo-slab;
+}
+
+.tweet {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-box;
+  display: box;
+  -webkit-box-pack: center;
+     -moz-box-pack: center;
+      -ms-box-pack: center;
+          box-pack: center;
+  -webkit-box-align: center;
+     -moz-box-align: center;
+      -ms-box-align: center;
+          box-align: center;
+  -webkit-box-orient: vertical;
+     -moz-box-orient: vertical;
+      -ms-box-orient: vertical;
+          box-orient: vertical;
+  height: 100%;
+}
+
+.tweet-text {
+  width: 430px;
+}
+
+.source {
+  margin-top: 2em;
+}
+
+.author {
+  vertical-align: top;
+}
+
+.avatar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: #f37321;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+  opacity: .25;
+}

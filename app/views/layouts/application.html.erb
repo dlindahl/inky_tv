@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>InkyTv</title>
-  <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
+  <title>Inky TV</title>
+  <%= stylesheet_link_tag "application", :media => "all" %>
+  <%= yield :head %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+  <body>
 
-<%= yield %>
+    <%= yield %>
 
-</body>
+    <%= jquery_include_tag :google %>
+    <%= javascript_include_tag "application" %>
+    <%= yield :foot %>
+  </body>
 </html>

@@ -1,0 +1,18 @@
+<% content_for :head do %>
+  <%= stylesheet_link_tag 'custom_ink_tweets' %>
+<% end %>
+
+<% content_for :foot do %>
+  <%= javascript_include_tag 'custom_ink_tweets' %>
+<% end %>
+
+<div class="avatar">
+  <img id="background">
+</div>
+
+<div id="tweet" class="tweet">
+  <div class="tweet-text"></div>
+  <div class="source">
+    <div id="author" class="author"></div>
+  </div>
+</div>

@@ -58,6 +58,9 @@ module InkyTv
     # Enable the asset pipeline
     config.assets.enabled = true
 
+    # In case the CDN fails
+    config.assets.precompile += ['jquery.js']
+
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
   end
