@@ -1,4 +1,4 @@
-class Cafe < NetworkExecutive::Channel
+class TheCafe < NetworkExecutive::Channel
 
   schedule 'wows' do
     daily

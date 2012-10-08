@@ -1,7 +1,7 @@
 class Wows < NetworkExecutive::Program
 
   def display_name
-    'The MOD - WOWs'
+    'The MOD: WOWs'
   end
 
   def refresh
