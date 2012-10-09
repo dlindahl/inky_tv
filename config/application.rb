@@ -59,7 +59,7 @@ module InkyTv
     config.assets.enabled = true
 
     # In case the CDN fails
-    config.assets.precompile += ['jquery.js', 'custom_ink_tweets.css', 'custom_ink_tweets.js']
+    config.assets.precompile += ['jquery.js', '*.css', '*.js']
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
