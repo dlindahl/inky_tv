@@ -17,7 +17,7 @@ class TheCafe < NetworkExecutive::Channel
     hourly( 1 ).minute_of_hour( 45 )
   end
 
-  schedule 'custom_ink_tweets', duration: 5.minutes do
+  schedule 'inkygram', duration: 5.minutes do
     hourly( 1 ).minute_of_hour( 21 )
     hourly( 1 ).minute_of_hour( 51 )
   end
