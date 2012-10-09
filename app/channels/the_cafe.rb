@@ -12,9 +12,14 @@ class TheCafe < NetworkExecutive::Channel
     hourly( 1 ).minute_of_hour( 56 )
   end
 
-  schedule 'custom_ink_tweets', duration: 11.minutes do
+  schedule 'custom_ink_tweets', duration: 6.minutes do
     hourly( 1 ).minute_of_hour( 15 )
     hourly( 1 ).minute_of_hour( 45 )
+  end
+
+  schedule 'custom_ink_tweets', duration: 5.minutes do
+    hourly( 1 ).minute_of_hour( 21 )
+    hourly( 1 ).minute_of_hour( 51 )
   end
 
 end

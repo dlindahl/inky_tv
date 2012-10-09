@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dlindahl/network_executive.git
-  revision: 7ef246473fbe6e469d9dadd7862d9159dd022775
+  revision: 7f109fa60f7534f160433cc77eea7960c51434cc
   specs:
     network_executive (0.0.8)
       activesupport (~> 3.2.0)
@@ -10,6 +10,7 @@ GIT
       faraday_middleware (~> 0.8.8)
       faye-websocket (~> 0.4.6)
       ice_cube (~> 0.8.1)
+      instagram (~> 0.8.5)
       multi_xml (~> 0.5.1)
       sass-rails
       twitter (~> 4.0.0)
@@ -74,9 +75,15 @@ GEM
     faye-websocket (0.4.6)
       eventmachine (>= 0.12.0)
     fssm (0.2.9)
+    hashie (1.2.0)
     hike (1.2.1)
     i18n (0.6.1)
     ice_cube (0.8.1)
+    instagram (0.8.5)
+      faraday (>= 0.7, < 0.9)
+      faraday_middleware (~> 0.8)
+      hashie (>= 0.4.0)
+      multi_json (~> 1.0, >= 1.0.3)
     journey (1.0.4)
     jquery-rails (2.1.3)
       railties (>= 3.1.0, < 5.0)
