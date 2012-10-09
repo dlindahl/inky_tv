@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/dlindahl/network_executive.git
-  revision: 3a08939f4fa7438eb66bc18e1ed868dfe4b570ec
+  revision: f7b646bb7d8e0acbc1b9d19f7205ddbec9aa9050
   specs:
     network_executive (0.0.8)
       activesupport (~> 3.2.0)
@@ -13,6 +13,7 @@ GIT
       instagram (~> 0.8.5)
       multi_xml (~> 0.5.1)
       sass-rails
+      terminal-table (~> 1.4.5)
       twitter (~> 4.0.0)
       uglifier
 
@@ -135,6 +136,7 @@ GEM
       hike (~> 1.2)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
+    terminal-table (1.4.5)
     thin (1.4.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
